@@ -38,6 +38,7 @@ def retrieve_and_print_stats(cc_proto, rtt, uplink_trace, downlink_trace):
     """
     proto_name = cc_proto.config['name']
     if os.path.isfile(cc_proto.results_file_path):
+        print(cc_proto.results_file_path)
         with open(cc_proto.results_file_path) as f:
             lines = f.readlines()
             avg_capacity = float(lines[0].split(' ')[2])
