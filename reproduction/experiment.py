@@ -16,8 +16,8 @@ import time
 import sys
 import shlex
 
-TRACE_DIR = '~/ABC-1/mahimahi/traces/'
-BW_TRACE_DIR = '~/ABC-1/reproduction/traces/'
+TRACE_DIR = '~/ABC_Reproduction/mahimahi/traces/'
+BW_TRACE_DIR = '~/ABC_Reproduction/reproduction/traces/'
 
 STATIC_BW_FIXED = 'bw48-fixed.mahi'
 STATIC_BW_VARIABLE = 'bw48-variable.mahi'
