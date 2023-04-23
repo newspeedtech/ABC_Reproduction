@@ -44,7 +44,7 @@ def get_protocol(scheme, uplink_ext, downlink_ext, figure="figure2"):
     elif scheme == 'vegas': 
         config_file_name = 'cubic'
         extra_config['name'] = 'vegas'
-        extra_config['mahimahi_command'] = 'sh ~/ABC-1/start_tcp.sh vegas'
+        extra_config['mahimahi_command'] = 'sh ~/ABC_Reproduction/start_tcp.sh vegas'
 
     elif scheme == 'cubiccodel': 
         config_file_name = 'cubic'
@@ -61,7 +61,7 @@ def get_protocol(scheme, uplink_ext, downlink_ext, figure="figure2"):
     elif scheme == 'bbr':
         config_file_name = 'cubic'
         extra_config['name'] = 'bbr'
-        extra_config['mahimahi_command'] = 'sh ~/ABC-1/start_tcp.sh bbr'
+        extra_config['mahimahi_command'] = 'sh ~/ABC_Reproduction/start_tcp.sh bbr'
 
     else:
         raise ValueError("Unknown scheme: %s" % scheme)
