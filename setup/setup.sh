@@ -19,7 +19,7 @@ cd ~
 if [ ! -d "pantheon" ]; then
   git clone https://github.com/StanfordSNR/pantheon.git
 fi
-cd ~/ABC-1
+cd ~/ABC_Reproduction
 
 # Setup congestion control schmees
 sh install_kernel_cc.sh
