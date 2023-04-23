@@ -6,7 +6,7 @@
 #
 
 # Install requirements
-pip install -r ~/ABC-1/requirements.txt
+pip install -r ~/ABC_Reproduction/requirements.txt
 
 # Setup mahimahi dependencies
 sh setup/install_mahimahi_deps.sh
