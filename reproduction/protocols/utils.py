@@ -7,7 +7,7 @@ from protocols.cc_protocol import CCProtocol
 
 UPLINK_LOG_FILE_FMT = 'logs/{}/{}/UPLINK_{}-DOWNLINK_{}.log'
 RESULTS_FILE_FMT = 'results/{}/{}/UPLINK_{}-DOWNLINK_{}.txt'
-CONFIG_FILE_FMT = '~/ABC-1/reproduction/protocols/config/{}.json'
+CONFIG_FILE_FMT = '~/ABC_Reproduction/reproduction/protocols/config/{}.json'
 
 def get_protocol(scheme, uplink_ext, downlink_ext, figure="figure2"):
     """Returns a CCProtocol object populated with
