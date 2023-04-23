@@ -41,6 +41,7 @@ def retrieve_and_print_stats(cc_proto, rtt, uplink_trace, downlink_trace):
         print(cc_proto.results_file_path)
         with open(cc_proto.results_file_path) as f:
             lines = f.readlines()
+            print("********* " + lines[0] + " " + lines[1] + " " + lines[2] + " " + lines[3])
             avg_capacity = float(lines[0].split(' ')[2])
             avg_throughput = float(lines[1].split(' ')[2])
             queuing_delay = float(lines[2].split(' ')[5])
