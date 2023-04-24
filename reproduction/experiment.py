@@ -251,7 +251,7 @@ def run_fig2_exp(schemes, args, run_full):
         results_path_fmt = results_path + '/multiple/%d/' + results_file
         log_path_fmt = log_path + '/multiple/%d/' + log_file
 
-        for i in range(2, num_runs + 1):
+        for i in range(1, num_runs + 1):
             print("         -> Iteration: %d\n" % i)
 
             if num_runs > 1:
