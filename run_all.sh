@@ -55,8 +55,8 @@ python reproduction/utils/gather_multiple_results.py \
 
 
 # Move the entire results/logs directory into its own one for this iteration.
-mv results results-1
+mv -f results results-1
 mkdir results
 
-mv logs logs-1
+mv -f logs logs-1
 mkdir logs
