@@ -1,0 +1,3 @@
+Use of uninitialized value $arrival_sum in division (/) at /usr/local/bin/mm-throughput-graph line 149, <> line 19.
+Use of uninitialized value $departure_sum in division (/) at /usr/local/bin/mm-throughput-graph line 150, <> line 19.
+Must have at least one departure event at /usr/local/bin/mm-throughput-graph line 153, <> line 19.

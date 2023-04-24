@@ -1,0 +1,1 @@
+Format: timestamp event_type num_bytes [delay] at /usr/local/bin/mm-throughput-graph line 59, <> line 192330.
